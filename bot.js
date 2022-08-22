@@ -5,7 +5,6 @@ const db = require("quick.db");
 const moment = require("moment");
 const express = require("express");
 const Discord = require("discord.js")
-const fetch = require('node-fetch');
 const app = express();
 const client = new Discord.Client();
 const prefix = '+' //PREFİXİNİZİ GİRİNİZ.
